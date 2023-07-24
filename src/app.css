@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&family=Rokkitt:wght@600;700&display=swap');
+
+.section-container {
+	@apply max-w-6xl mx-auto text-center px-10;
+}
+
+.clip-h3 {
+	@apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl font-clipSans;
+}
+
+.clip-button-container {
+	@apply p-4 px-8 rounded-full duration-200 hover:opacity-80;
+}
+
+/* @layer base {
+	h3: {
+		@apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl font-clipSans;
+	}
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
